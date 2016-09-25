@@ -20,7 +20,7 @@ var loadWeather=function(jsonResponse){
     console.log("this is city"+money);
 
     $('.temperature').html(thisCity);
-    // $('.weather').html(weather);
+    $('.weather').html(money);
     // $('.weatherIcon').html('<img src="'+icon+'/portrait_fantastic.jpg">');
     $('currentCity').val(thisCity);
 
